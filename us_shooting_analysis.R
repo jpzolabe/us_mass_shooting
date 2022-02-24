@@ -26,7 +26,7 @@ library(NbClust)
 library(plotly)
 
 #Loading the dataset
-raw_data <- read.csv("C:\\Users\\jzolabe-doukou\\Desktop\\R Project\\US_Mass_Shootings.csv")
+raw_data <- read.csv("path_to_file\US_Mass_Shootings.csv")
 project_data <- as_tibble(raw_data)
 glimpse(project_data)
 
